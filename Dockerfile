@@ -16,7 +16,7 @@ RUN ./gradlew dependencies --no-daemon || true
 COPY . .
 
 # Build the Spring Boot JAR (skip tests)
-RUN ./gradlew clean build -x test --no-daemon
+#RUN ./gradlew clean build -x test --no-daemon
 
 
 # ===========================
